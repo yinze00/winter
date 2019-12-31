@@ -26,9 +26,9 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/demo.loader.js";
       var config = {
-        dataUrl: buildUrl + "/demo.data.gz",
-        frameworkUrl: buildUrl + "/demo.framework.js.gz",
-        codeUrl: buildUrl + "/demo.wasm.gz",
+        dataUrl: buildUrl + "/demo.data",
+        frameworkUrl: buildUrl + "/demo.framework.js",
+        codeUrl: buildUrl + "/demo.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DIY Line",
         productName: "The Winter",
@@ -45,8 +45,8 @@
         container.className = "unity-mobile";
         config.devicePixelRatio = 1;
       } else {
-        canvas.style.width = "1280px";
-        canvas.style.height = "800px";
+        canvas.style.width = "960px";
+        canvas.style.height = "600px";
       }
       loadingBar.style.display = "block";
 
